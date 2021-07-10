@@ -7,6 +7,8 @@ Config.Locale = 'it'
 Config.Delays = {
     WeedPickup = 1000,
     WeedProcessing = 3500,
+    AmnesiaPickup = 1000,
+    AmnesiaProcessing = 5500,
 }
 
 -- Map blimps
@@ -32,5 +34,25 @@ Config.DrugFields = {
         sprite = 496, 
         radius = 0.0,
         showOnRadar = true
-    }
+    },
+
+    -- Amnesia | NEVER set showOnRadar true!
+    AmnesiaField = {
+        coords = vector3(280.9, 6798.6, 15.7),
+        blipcoords = vector3(280.9, 6798.6, 15.7),
+        name = _U('blip_amnesiafield'),
+        color = 25, 
+        sprite = 496, 
+        radius = 0.0,
+        showOnRadar = false
+    },
+    AmnesiaProcessing = {
+        coords = vector3(1391.9, 3605.9, 38.9),
+        blipcoords = vector3(1391.9, 3605.9, 38.9),
+        name = _U('blip_amnesiafield'),
+        color = 25, 
+        sprite = 496, 
+        radius = 0.0,
+        showOnRadar = false
+    },
 }
