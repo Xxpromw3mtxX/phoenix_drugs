@@ -22,7 +22,7 @@ Config.DrugFields = {
         color = 25, 
         sprite = 496, 
         radius = 0.0,
-        show = true
+        showOnRadar = true
     },
     WeedProcessing = {
         coords = vector3(-34.4, 1950.7, 190.3),
@@ -31,6 +31,6 @@ Config.DrugFields = {
         color = 25, 
         sprite = 496, 
         radius = 0.0,
-        show = true
+        showOnRadar = true
     }
 }

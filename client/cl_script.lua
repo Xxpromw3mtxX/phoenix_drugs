@@ -33,7 +33,7 @@ end
 Citizen.CreateThread(function()
 	if Config.SetMapBlips then
 		for k,zone in pairs(Config.DrugFields) do
-			if zone.show then
+			if zone.showOnRadar then
 				CreateBlip(zone.blipcoords, zone.name, zone.radius, zone.color, zone.sprite)
 			end
 		end
