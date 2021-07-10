@@ -24,10 +24,10 @@ AddEventHandler('phoenix_droghe:processCannabis', function()
 					xPlayer.removeInventoryItem('cannabis', 3)
 					xPlayer.addInventoryItem('marijuana', 1)    
 				else
-					xPlayer.showNotification(_U('weed_processingfull'))
+					xPlayer.showNotification(_U('processingfull'))
 				end
 			else
-				xPlayer.showNotification(_U('weed_processingenough'))
+				xPlayer.showNotification(_U('processingenough'))
 			end
 
 			playersProcessingCannabis[_source] = nil

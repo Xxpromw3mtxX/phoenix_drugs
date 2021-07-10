@@ -44,7 +44,7 @@ function PickUpWeed()
 
 	local timeLeft = Config.Delays.WeedPickup / 1000
 
-	exports['progressBars']:startUI(Config.Delays.WeedPickup, _U('weed_pickinup'))
+	exports['progressBars']:startUI(Config.Delays.WeedPickup, _U('pickup'))
 
     while timeLeft > 0 do
 		
@@ -80,7 +80,7 @@ function ProcessWeed()
 
 	TriggerServerEvent('phoenix_droghe:processCannabis')
 	local timeLeft = Config.Delays.WeedProcessing / 1000
-	exports['progressBars']:startUI(Config.Delays.WeedProcessing, _U('weed_processing'))
+	exports['progressBars']:startUI(Config.Delays.WeedProcessing, _U('processing'))
 	while timeLeft > 0 do
 		Citizen.Wait(1000)
 		timeLeft = timeLeft - 1
