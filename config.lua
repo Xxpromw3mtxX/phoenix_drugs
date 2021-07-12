@@ -11,7 +11,7 @@ Config.Delays = {
     AmnesiaProcessing = 5500,
 }
 
--- Map blips
+-- Map blimps
 Config.SetMapBlips = true
 
 -- Zones
